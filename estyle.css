@@ -1,6 +1,7 @@
 /* TITULO ------------------------------------------------------ */
 #formulario{
     font-family: arial;
+    font-size: 12px;
     background: #14376d;
     color: white;
     padding: 5px;
@@ -14,18 +15,19 @@
   /* --------------------------------------------------------------- */
   /* FORMULARIO:--------------------------- */
   form{
+
     background-color: white;
     margin:10px;
     margin:0 auto;
     border-radius:19px;
     width: 40%;
-    /* SECUENCIA: para centrar formulario */
+    /* SECUENCIA: centralizando formulario */
     position: absolute;
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
   }
-    /* TAMAÑO LETRA: nombre, apellido, e-mail, etc ----- */
+    /* FONTE FORMULARIO----- */
       label{
         margin-left: 8px;
         font-size: 12px;
@@ -35,7 +37,7 @@
         font-family: sans-serif;
       }
     /* -------------------------------------------------- */
-    /* EDICION CADA INPUT: diseño ----------------------- */
+    /* IMPUTS ----------------------- */
       input{
         margin-bottom:10px; 
         width: 95%;
@@ -47,19 +49,22 @@
         border: 1px solid #ccc;
         font-style: italic; 
       }
-      /* Cuando da click dentro de un input --------------- */
+      /* Clicando em um imput --------------- */
         input:focus{
           background-color: #F2F2F2;
         }
       /* -------------------------------------------------- */
   /* --------------------------------------------------------------- */
-  /* C U E R P O  -------------------------------------------------- */ 
+  /*FUNDO  -------------------------------------------------- */ 
   body{
     background-image: linear-gradient(-90deg,#6ABBF7, #BD7CFA);
   }
   /* --------------------------------------------------------------- */
-  /* FUNCION DEL BOTON REGISTRARSE --------- */
+  /*BOTÃO --------- */
   #button {
+          align-items: center;
+          display: flex;
+          justify-content: center;
           width: 94%;
           font-family: sans-serif;
           font-size:15px;
@@ -71,13 +76,13 @@
           margin-left:10px;
           border: none;
           padding: 3%;
-          border-radius: 20px 10px 20px 10px;
-      /* SOMBRA BOTON: darle sommbre al boton "resgistrarse"*/
+          border-radius: 10px 10px 10px 10px;
+      /* SOMBRA BOTÃO:*/
           -webkit-box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
           -moz-box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
            box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);      
   }
   #button:hover{
-    background-color: #7FACDE;
+    background-color: #2b6ab3;
   }
   /* ---------------------------------------- */
