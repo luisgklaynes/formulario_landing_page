@@ -2,11 +2,12 @@
 <html lang = "pt-BR">
 	<head>
 		<title> Formulario | Registro </title>
-    <link rel="stylesheet" type="text/css" href="estyle.css">
+    <link rel="stylesheet" type="text/css" href="estyleflex.css">
 	</head>
+	
 	<body>
-
-		<form action="registro.php" method="POST">
+	<div class="brabo"> 
+		<form class="formulario" action="registro.php" method="POST">
       <div id="formulario"> 
         <h1> FORMULARIO </h1>
       </div>
@@ -16,19 +17,25 @@
 			<span class="obrigatorio">*</span>
 		</label>
 				<input placeholder="Nome" name="fnombre" type="text" id="tabla">
+			</div>
 
+			<div>
         <label for="correo">E-mail
 			<span class="obrigatorio">*</span>
 		</label> 
 				<input placeholder="e-mail" name="femail" type="text" id="tabla">
+			</div>
 
+			<div>
         <label for="fecha"> Data Nascimento
 			<span class="obrigatorio">*</span>
 		</label>
 				<input placeholder="DD/MM/AA" name="ffechanacimiento" type="text" id="tabla">
 			</div>
+
 			  <button name="registro" type="submit" id="button"> Enviar </button>
 		</form>
+	</div>
 	</body>
 </html>
 

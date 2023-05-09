@@ -1,0 +1,19 @@
+
+
+body{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  display: flex;
+  background-color: aqua;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  width: 50vw;
+
+}
